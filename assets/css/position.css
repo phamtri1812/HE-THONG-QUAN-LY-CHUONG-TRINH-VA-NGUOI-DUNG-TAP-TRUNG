@@ -1,0 +1,51 @@
+/* Content position*/
+#table-btn-pos {
+    display: grid;
+    justify-content: center;
+}
+
+.div-table{
+    width: 550px;
+}
+
+/* form insert */
+
+#div-insert-edit {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-insert {
+    padding: 60px;
+    background: #fff;
+    position: relative;
+}
+#div-insert .content-div-insert {
+    display: grid;
+}
+
+#div-insert label {
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+#div-insert input {
+    width: 350px;
+    font-size: 16px;
+    padding: 4px 8px;
+    margin-bottom: 20px;
+}
+
+.btn-save-insert-edit {
+    margin-top: 10px;
+    float: right;
+    display: flex;
+}
+
+.btn-save-insert, 
+.btn-save-edit {
+    display: none;
+}

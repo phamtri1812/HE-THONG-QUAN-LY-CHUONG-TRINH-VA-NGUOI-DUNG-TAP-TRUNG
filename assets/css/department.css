@@ -1,0 +1,106 @@
+/*  */
+#department {
+    display: flex;
+}
+/*  */
+.tree {
+    width: 35%;
+}
+/*  */
+#list-dep {
+    margin-left: 16px;
+    width: 65%;
+    background: white;
+    height: 500px;
+    padding: 30px;
+    display: grid;
+}
+
+#list-dep p {
+    margin-bottom: 4px;
+}
+
+.btn-insert-delete {
+    float: right;
+    margin-bottom: 4px;
+}
+
+.div-table-dep {
+    height: 370px;
+    border: 2px solid var(--border-color);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    background: #fff;
+}
+
+#table-dep {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#table-dep th {
+    background: var(--dark-blue);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px;
+    border: 1px solid var(--border-color);
+    border-top: none;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#table-dep td {
+    font-size: 16px;
+    padding: 2px 4px;
+    border: 1px solid var(--border-color);
+
+}
+
+#table-dep .find {
+    font-size: 16px;
+    width: 100%;
+    padding: 4px;
+}
+
+
+/* Form insert */
+#div-insert-edit {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+#div-insert {
+    padding: 60px;
+    background: #fff;
+    position: relative;
+}
+#div-insert .content-div-insert {
+    display: grid;
+}
+
+#div-insert label {
+    text-align: left;
+}
+
+#div-insert input, #div-insert select {
+    width: 350px;
+    font-size: 16px;
+    padding: 4px 8px;
+    margin-bottom: 20px;
+}
+
+.btn-save-insert-edit {
+    margin-top: 10px;
+    float: right;
+    display: flex;
+}
+
+.btn-save-insert, .btn-save-edit {
+    display: none;
+}
+
+

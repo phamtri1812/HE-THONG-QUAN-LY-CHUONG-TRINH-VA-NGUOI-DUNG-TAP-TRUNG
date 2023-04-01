@@ -1,0 +1,105 @@
+#form-authority {
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+.choose-pro {
+    width: 100%;
+    background: #fff;
+    border: 2px solid var(--border-color);
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.choose-pro p {
+    font-size: 18px !important;
+    margin-top: 30px;
+}
+
+.content-choose-pro {
+    padding: 20px 40px 40px;
+    display: flex;
+}
+
+.btn-edit {
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.btn-show {
+    display: grid;
+    align-items: flex-end;
+}
+
+.div-btn-save-cancel {
+    display: flex;
+    margin-bottom: 4px;
+}
+
+.btn-save-cancel {
+    float: right;
+}
+
+.btn-cancel {
+    margin: 0 !important;
+}
+.div-check-box {
+    position: absolute;
+    bottom: 0;
+    left: 4px;
+}
+
+/* choose pro */
+
+#div-choose-pro, #div-tree, #div-choose-group  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 4;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.form-choose-pro {
+    background: #fff;
+    padding: 40px;
+    width: 1300px;
+    position: relative;
+
+}
+
+.title-choose {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-choose-group {
+    background: #fff;
+    padding: 40px;
+    width: 500px;
+    position: relative;
+}
+
+.form-tree {
+    background: #fff;
+    padding: 40px;
+    width: 500px;
+    position: relative;
+}
+
+input[type=radio]{
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+}
+
+.unit-type {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

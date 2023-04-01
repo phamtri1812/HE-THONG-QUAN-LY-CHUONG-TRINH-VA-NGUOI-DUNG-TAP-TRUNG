@@ -1,0 +1,102 @@
+/* FORM THEM SUA */
+#div-insert-edit {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.form-insert-edit label{
+    float: left;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.form-insert-edit .input-user {
+    font-size: 16px;
+    padding: 4px 8px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.btn-save-insert {
+    display: none;
+}
+
+.btn-save-edit {
+    display: none;
+}
+
+#input-insert-edit {
+    display: grid;
+}
+
+.btn-reset-pass {
+    background: var(--dark-blue);
+    float: right;
+}
+
+.btn-save-cancel {
+    float: right; 
+    display: flex;
+}
+
+/* Form quyen */
+.title-insert {
+    border: none !important;
+}
+
+#div-auth {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 4;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.form-insert-edit {
+    margin: 40px;
+}
+
+#table-func {
+    width: 100%;
+}
+
+td ti.ti-check{
+    margin-top: 4px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: var(--green);
+}
+
+td ti.ti-close{
+    margin-top: 4px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: var(--red);
+}
+
+i {
+    font-size: 14px;
+}
+
+.div-table-func {
+    width: 70%; 
+    height: 500px; 
+    margin-left: 16px;
+}
+
+.title-pro {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 4px 0;
+    text-align: center;
+    height: calc(10% - 8px);
+}
+
+.div-table {
+    height: 90%;
+}

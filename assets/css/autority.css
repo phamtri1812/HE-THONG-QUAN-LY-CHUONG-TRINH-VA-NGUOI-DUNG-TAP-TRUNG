@@ -1,0 +1,35 @@
+#content-authority {
+    margin-top: 100px;
+    height: calc(100vh - 150px);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: #ececec;
+}
+#list-authority {
+    list-style: none;
+    display: flex;
+    padding: calc((100vh - 150px - 170px - (16px *  2)) / 2) 0;
+}
+
+#list-authority a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+#list-authority li {
+    background: #ececec;
+    width: 170px;
+    height: 170px;
+    margin: 16px;
+    padding: 42px 25px;
+    border-radius: 20%;
+    line-height: 1.5;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#list-authority li:hover {
+    transform: translateY(-32px);
+}

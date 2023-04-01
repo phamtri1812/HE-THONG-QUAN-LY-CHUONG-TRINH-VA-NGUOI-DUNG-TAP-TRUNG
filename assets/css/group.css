@@ -1,0 +1,55 @@
+#content {
+    display: grid;
+    justify-content: center;
+}
+
+.div-btn-table {
+    width: 500px;
+}
+
+#div-insert-edit {
+    display: none;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 40px;
+}
+
+#div-insert-edit p {
+    font-size: 20px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+#content-insert {
+    display: grid;
+}
+
+.name-group {
+    display: grid;
+}
+
+.name-group input {
+    width: 300px;
+}
+
+.p-boder {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid var(--border-color);
+}
+
+.btn-save-insert-edit {
+    float: right;
+    margin-top: 10px;
+    display: flex;
+}
+
+#btn-save-insert,
+#btn-save-edit {
+    display: none;
+}
+
+.btn-delete-user {
+    background: var(--red);
+}
+ 

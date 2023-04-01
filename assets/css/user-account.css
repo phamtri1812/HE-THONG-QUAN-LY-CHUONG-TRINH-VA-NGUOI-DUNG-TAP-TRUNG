@@ -1,0 +1,265 @@
+#content-account {
+    min-height: calc(100vh - 150px);
+    background: #ececec;
+    padding: 40px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+table td, table th {
+    border: none !important;
+}
+
+#content-user #info-user {
+    display: block;
+}
+
+#content-user #edit-user {
+    display: none;
+}
+
+#content-user #change-pass {
+    display: none;
+}
+
+#user-account {
+    background: rgb(255, 255, 255);
+    width: 27%;
+    text-align: center;
+    box-shadow: 0 0 4px 4px var(--shadow-color);
+}
+
+#user-account .img-user {
+    width: 150px ;
+    height: 150px ;
+    border-radius: 50%;
+}
+
+#user-account .name-user {
+    padding: 40px 20px;
+    background: var(--blue-find);
+    font-size: 18px;
+}
+
+#user-account .name-user p{
+    margin-top: 8px;
+    color: #000;
+}
+
+#user-account .menu-user {
+    list-style: none;
+}
+
+#user-account .menu-user li {
+    color: #000;
+    text-align: left;
+    border-top: solid;
+    border-top-color: #ececec;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#user-account .menu-user li:hover {
+    color: var(--blue-find);
+}
+
+
+#content-user {
+    width: calc(83% - 16px);
+    margin-left: 16px;
+    background: #fff;
+    padding: 60px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 4px 4px var(--shadow-color);
+}
+
+.info-title {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+#info-user .table-user {
+    width: 100%;
+}
+
+#info-user .table-user td{
+    font-size: 16px;
+    padding: 10px 4px;
+}
+
+
+/* Edit-user */
+#edit-user {
+    display: grid;
+}
+
+#edit-user .table-user {
+    width: 100%;
+}
+
+#edit-user .table-user td {
+    font-size: 16px;
+    padding: 8px 4px;
+}
+
+.file-img {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+
+
+#update-img {
+    position: relative;
+    text-align: center;
+}
+
+#update-img button{
+    background: var(--dark-blue);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 4px 8px;
+    position: absolute;
+    bottom: 5px;
+    right: 70px;
+}
+
+
+#edit-user .table-user input, #edit-user .table-user select {
+    padding: 4px 8px;
+    font-size: 16px;
+}
+
+#edit-user .btn-save-cancel {
+    margin-top: 20px;
+}
+
+.btn-save-cancel button{
+    width: 65px;
+}
+
+.btn-save-cancel .save {
+    background: var(--green);
+}
+
+.btn-save-cancel .cancel {
+    background: var(--red);
+}
+
+/* Change-pass */
+#change-pass {
+    display: grid;
+}
+
+#change-pass p{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 32px;
+}
+
+#change-pass .table-change {
+    width: 100%;
+}
+
+#change-pass .table-change td {
+    padding: 8px 0;
+}
+
+#change-pass .table-change input {
+    padding: 4px 24px 4px 8px;
+    font-size: 16px;
+}
+
+#change-pass .table-change button {
+    width: 26px;
+    height: 26px;
+    padding: 0;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#change-pass .btn-save-cancel {
+    margin-top: 40px;
+}
+
+#change-pass .table-change .input-pass{
+    position: relative;
+}
+
+#show-pass1, #show-pass2, #show-pass3 {
+    position: absolute;
+    right: 12px;
+    top: 8px;
+    cursor: pointer;
+}
+
+#hidden-pass1, #hidden-pass2, #hidden-pass3 {
+    position: absolute;
+    right: 12px;
+    top: 8px;
+    cursor: pointer;
+   
+}
+
+/* Form insert image */
+#form-insert-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.insert-image {
+    padding: 60px;
+    background: #fff;
+}
+
+.insert-image p {
+    font-size: 20px;
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.insert-image input {
+    font-size: 16px;
+    padding: 8px 4px;
+}
+
+.btn-save-cancel-img {
+    margin-top: 20px;
+    float: right;
+}
+
+.btn-save-img {
+    background: var(--green);
+}
+
+.btn-cancel-img {
+    background: var(--red);
+}
+
+button.ti-plus {
+    background: rgba(0, 0, 0, 0);
+    color: #000;
+    font-size: 50px;
+    font-weight: bold;
+}
+

@@ -1,0 +1,102 @@
+.content-access {
+    display: flex;
+    height: 500px;
+}
+
+.tree {
+    width: 30% !important;
+}
+
+.div-table {
+    height: 393px !important;
+}
+
+.func-access {
+    width: 70%;
+    margin-left: 16px;
+    background: #fff;
+    padding: 30px;
+    display: none;
+}
+
+.title-access {
+    margin-bottom: 15px;
+}
+
+table td {
+    height: 30px;
+}
+
+ti.ti-check{
+    margin-top: 4px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: var(--green);
+}
+
+td ti.ti-close{
+    margin-top: 4px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: var(--red);
+}
+
+i {
+    font-size: 14px;
+}
+
+
+.pro-access {
+    width: 70%;
+    margin-left: 16px;
+    background: #fff;
+    padding: 30px;
+    display: block;
+}
+
+#form-info-pro {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.7);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 4;
+    display: none;
+    align-items: center;
+}
+
+.div-info-pro {
+    background: #fff;
+    padding: 60px;
+    width: 100%;
+    margin: 0 40px;
+    position: relative;
+}
+
+.div-info-pro p {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.btn-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+
+
+.div-info-pro label {
+    margin-bottom: 8px;
+}
+
+.div-info-pro .content {
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 8px;
+}
+
